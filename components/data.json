@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "level": "Level One",
+            "question": "What is the correct word for Hello?",
+            "answer": "Kia Ora",
+            "selection": ["Kia Ora", "Mōrena", "Whenua", "Maunga"]
+        },
+        {
+            "level": "Level Two",
+            "question": "What is the correct word for Work?",
+            "answer": "Mahi",
+            "selection": ["Kai", "Whānau", "Mahi", "Waka"]
+        },
+        {
+            "level": "Level Three",
+            "question": "What is the correct word for Food?",
+            "answer": "Kai",
+            "selection": ["Poaka", "Kai", "Kotahi", "Puku"]
+        }
+    ]
+}
