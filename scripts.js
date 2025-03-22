@@ -327,20 +327,16 @@ const gameStartMenu = () => {
                 }
             });
         }else {
-            new Audio("/assets/audio/sfx/game_start_cue/game_start.mp3").play();
-
-            setTimeout(() => {
-                document.body.innerHTML = `
-                    <div id="root">
-                        <div id="gameContainer">
-                            <div id="gameHeader"></div>
-                            <div id="gameQuestion"></div>
-                            <div id="gameContent"></div>
-                        </div>
+            document.body.innerHTML = `
+                <div id="root">
+                    <div id="gameContainer">
+                        <div id="gameHeader"></div>
+                        <div id="gameQuestion"></div>
+                        <div id="gameContent"></div>
                     </div>
-                    `;
-                gameContainer();
-            }, 1500);
+                </div>
+                `;
+            gameContainer();
         }
     }, false);
 }
