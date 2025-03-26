@@ -1,6 +1,6 @@
 # Māori Language Game
 
-LIVE PREVIEW: <a href="https://maori-language-game-demo.vercel.app/">Māori Language Game - Demo</a>
+LIVE PREVIEW: <a href="https://maori-language-game-demo.vercel.app/" target="_blank">Māori Language Game - Demo</a>
 
 ## Game Overview
 
